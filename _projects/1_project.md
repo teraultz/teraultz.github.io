@@ -67,7 +67,7 @@ X
   <div class="col-sm-12 mt-3 mt-md-0">
     <div class="ratio ratio-16x9 rounded z-depth-1">
       <iframe
-        src="https://youtu.be/BdttACGrvoE"
+        src="https://www.youtube.com/embed/BdttACGrvoE"
         title="Lost Memories Gameplay"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
