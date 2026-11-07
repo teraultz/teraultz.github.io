@@ -1,81 +1,77 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Lost Memories
+description: University Project
+img: assets/img/lost-memories-thumbnail.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+<div class="text-center mb-4">
+  <h4><b>University Project</b></h4>
+  <p class="mb-0"><small>December, 2024</small></p>
+  <p><small>Game Developer &amp; Game Designer</small></p>
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row align-items-center mb-4">
+  <div class="col-sm-5 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/lost-memories-thumbnail.jpg" title="Lost Memories" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm-7 mt-3 mt-md-0">
+    <h3>Summary</h3>
+    <p>
+      <b>Type:</b> University Project<br>
+      <b>Status:</b> Completed<br>
+      <b>My Role:</b> Game Developer &amp; Designer<br>
+      <b>Time Frame:</b> 4 Months<br>
+      (Completed alongside 3 other courses)
+    </p>
   </div>
 </div>
-```
 
-{% endraw %}
+## Overview
+
+Lost Memories is a first-person escape room game where players learn about two-factor authentication. This game was made in Unreal Engine. The purpose of this game was for players to have some fun figuring out the game's mystery while learning about 2FA and its importance. The player starts the game having forgotten every detail about themselves and must answer the 2FA questions on panels next to each door to proceed further into the escape room. The player must explore the room and use what they find to help them answer the 2FA questions. As the player proceeds, they will slowly start to figure out what is going on.
+
+This game was a university project, so we had to center it around educating the player about cybersecurity. We did this by incorporating 2FA questions as requirements to proceed in the game and adding some 2FA facts in each door panel's UI canvas. The game's targeted audience was high school/college students.
+
+## Core Gameplay Concept
+
+Player answers 2FA questions by:
+
+- Checking which 2FA questions need to be answered
+- Exploring the room and clicking on highlightable objects
+- Reading through the details of these objects in the player's notebook
+- Piecing together the answer to the current questions
+- Inputting the answer into the 2FA panel and unlocking the door
+
+## My Role
+
+I was responsible for:
+
+- All of the game's programming
+- Collaborated on the design of 2FA-based gameplay puzzles
+- Built and assembled environments using team-created 3D assets
+- Integrated narrative flow based on story content developed by teammates
+- Conducted playtesting and refined the player experience through iteration
+- Identified, debugged, and resolved technical issues
+
+## Retrospection
+
+X
+
+## Gameplay Video
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-12 mt-3 mt-md-0">
+    <div class="ratio ratio-16x9 rounded z-depth-1">
+      <iframe
+        src="https://youtu.be/BdttACGrvoE"
+        title="Lost Memories Gameplay"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
