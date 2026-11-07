@@ -7,9 +7,12 @@ importance: 1
 category: work
 related_publications: false
 ---
+<style>
+  .post-header { display: none; }
+</style>
 
 <div class="text-center mb-4">
-  <h4><b>University Project</b></h4>
+  <h4><b>Lost Memories</b></h4>
   <p class="mb-0"><small>December, 2024</small></p>
   <p><small>Game Developer &amp; Game Designer</small></p>
 </div>
@@ -63,15 +66,13 @@ X
 
 ## Gameplay Video
 
-<div class="row justify-content-sm-center">
-  <div class="col-sm-12 mt-3 mt-md-0">
-    <div class="ratio ratio-16x9 rounded z-depth-1">
-      <iframe
-        src="https://www.youtube.com/embed/BdttACGrvoE"
-        title="Lost Memories Gameplay"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
-    </div>
+<div style="width: 90vw; max-width: 1200px; position: relative; left: 50%; transform: translateX(-50%);">
+  <div class="ratio ratio-16x9 rounded z-depth-1">
+    <iframe
+      src="https://www.youtube.com/embed/BdttACGrvoE"
+      title="Lost Memories Gameplay"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
   </div>
 </div>
