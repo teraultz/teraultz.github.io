@@ -1,81 +1,74 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://www.wikipedia.org/
-importance: 3
+title: "Rocky Raccoon: Cybersecurity Detective"
+description: University Project
+img: assets/img/rockythumbnail.jpg
+importance: 1
 category: work
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<style>
+  .post-header { display: none; }
+</style>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+<div class="text-center mb-4">
+  <h2><b>Rocky Raccoon:<br>Cybersecurity Detective</b></h2>
+  <h4><b>University Project</b></h4>
+  <p class="mb-0"><small>April, 2026</small></p>
+  <p><small>Game Developer &amp; Game Designer</small></p>
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Summary
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Type:** University Project<br>
+**Status:** Completed<br>
+**My Role:** Game Developer & Designer<br>
+**Time Frame:** 4 Months<br>
+(Completed alongside 3 other courses)<br>
+<a href="https://zephyrbyte.itch.io/rocky-raccoon-cybersecurity-detective" target="_blank"><b>Itch.io Link</b></a>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Overview
 
-{% raw %}
+Rocky the Raccoon is a 3D point-and-click detective adventure that uses a narrative style to teach players essential cybersecurity awareness. Players will step into the role of Detective Rocky. Rocky is a clever animal detective who helps clients navigate common digital threats. While solving each case, the player will recognize different threats and how not to fall victim to them in the future. Rocky will make use of his detective office to help solve each client's case. As Rocky starts solving the cases, he will start to uncover who is behind these attacks on his clients.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+This game is a university project meant to teach the player about cybersecurity awareness. This had cases centered around phishing messages, AI impersonation, and malware attacks.
+
+## Core Gameplay Concept
+
+The player proceeds through a level by:
+
+- Rocky opens the door and hears the client's case
+- Rocky checks his clue corkboard to see the evidence and descriptions
+- Rocky then checks his filing cabinet of cyber threats
+- Once ready, Rocky talks to the client and tries to guess both what cyber threat occurred and which piece of evidence proves it
+- Rocky then talks about what that cyber threat is and tells the client what to do
+
+## My Role
+
+I was responsible for:
+
+- Helping build the environment using free 3D assets
+- Programming and designing the UI canvas for the clue corkboard
+- Planning and designing the puzzle and clues for each mystery
+- Replicating the office environment using the original tutorial scene
+- Integrated dialogue based on story content developed by teammates
+- Helped conduct playtesting and refine the player experience through iteration
+- Helped identify, debug, and resolve technical issues
+
+## Retrospection
+
+x
+
+## Gameplay Video
+
+<div style="width: 90vw; max-width: 1200px; position: relative; left: 50%; transform: translateX(-50%);">
+  <div class="ratio ratio-16x9 rounded z-depth-1">
+    <iframe
+      src="https://www.youtube.com/embed/Ye4Acmr2hr0"
+      title="Rocky Raccoon: Cybersecurity Detective Gameplay"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
   </div>
 </div>
-```
-
-{% endraw %}
