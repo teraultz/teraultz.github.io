@@ -4,7 +4,7 @@ title: Paper Toss VR
 description: University Project
 img: assets/img/PaperTossVR.png
 importance: 1
-category: work
+category: School Projects
 related_publications: false
 ---
 

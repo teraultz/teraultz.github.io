@@ -4,7 +4,7 @@ title: "Rocky Raccoon: Cybersecurity Detective"
 description: University Project
 img: assets/img/rockythumbnail.jpg
 importance: 1
-category: work
+category: School Projects
 related_publications: false
 ---
 
