@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Game Dev Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Here are all the video game projects I have worked on.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [School Projects, Pesonal]
 horizontal: false
 ---
 
