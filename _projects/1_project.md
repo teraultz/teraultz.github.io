@@ -4,7 +4,7 @@ title: Lost Memories
 description: University Project
 img: assets/img/lost-memories-thumbnail.jpg
 importance: 1
-category: work
+category: School Projects
 related_publications: false
 ---
 <style>
