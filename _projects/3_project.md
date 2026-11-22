@@ -25,40 +25,41 @@ related_publications: false
 **Status:** Completed<br>
 **My Role:** Game Developer & Designer<br>
 **Time Frame:** 4 Months<br>
-(Completed alongside 3 other courses)<br>
-<a href="https://zephyrbyte.itch.io/rocky-raccoon-cybersecurity-detective" target="_blank"><b>Itch.io Link</b></a>
+<a href="https://zephyrbyte.itch.io/rocky-raccoon-cybersecurity-detective" target="_blank"><b>Play on Itch.io</b></a>
 
 ## Overview
 
-Rocky the Raccoon is a 3D point-and-click detective adventure that uses a narrative style to teach players essential cybersecurity awareness. Players will step into the role of Detective Rocky. Rocky is a clever animal detective who helps clients navigate common digital threats. While solving each case, the player will recognize different threats and how not to fall victim to them in the future. Rocky will make use of his detective office to help solve each client's case. As Rocky starts solving the cases, he will start to uncover who is behind these attacks on his clients.
+Rocky the Raccoon is a 3D point-and-click detective adventure designed to teach players about common cybersecurity threats through interactive storytelling and puzzle solving.<br>
 
-This game is a university project meant to teach the player about cybersecurity awareness. This had cases centered around phishing messages, AI impersonation, and malware attacks.
+Players take on the role of Rocky, a clever raccoon detective who helps clients investigate suspicious digital activity. Each case introduces a different cybersecurity threat, challenging players to examine evidence, identify the underlying threat, and learn how to protect themselves from similar situations in the future. As players proress through thecases, they gradually begin to uncover more about the indiviual responsible for these attacks, revealing a larger mystery behind the incidents.<br>
+
+The game focuses on three cybersecurity topics: phishing, AI impersonation,, and malware attacks. By incorporating these topics into these deteive style investigations, the project aims to make cybersecurty awareness more engaging and approachable. <br>
 
 ## Core Gameplay Concept
 
-The player proceeds through a level by:
+Each case follows the detective investigation process:<br>
+1. Meet the Client: Rocky welcomes the client into his office and listens to their account of the suspicious activity.<br>
+2. Investigate the Evidence: Players examine the clues displayed on Rocky's corkboard to understand the details of the case.<br>
+3. Research Cybersecurity Threats: Players consult Rocky's filing cabinet to review information about different types of cyber threats.<br>
+4. Solve the Case: Players identify the cybersecurity threat involved and determine which piece of evidence supports their conclusion.<br>
+5. Educate the Client: Once the case is solved, Rocky explains the threat and provides guidance on how the client can avoid similar situations in the future.<br>
 
-- Rocky opens the door and hears the client's case
-- Rocky checks his clue corkboard to see the evidence and descriptions
-- Rocky then checks his filing cabinet of cyber threats
-- Once ready, Rocky talks to the client and tries to guess both what cyber threat occurred and which piece of evidence proves it
-- Rocky then talks about what that cyber threat is and tells the client what to do
+## My Contributions
 
-## My Role
+My primary contributions focused on gameplay design, UI development, environment creation, and integrating the game's narrative elements.<br>
 
-I was responsible for:
-
-- Helping build the environment using free 3D assets
-- Programming and designing the UI canvas for the clue corkboard
-- Planning and designing the puzzle and clues for each mystery
-- Replicating the office environment using the original tutorial scene
-- Integrated dialogue based on story content developed by teammates
-- Helped conduct playtesting and refine the player experience through iteration
-- Helped identify, debug, and resolve technical issues
+- Environment Development: Contributed to constructing the game's environment using freely available 3D assets
+- UI Design & Development: Designed and programmed the UI for the clue corkboard, allowing players to review the evidence assosiated with each case.
+- Puzzle & Case Design: Planned and designed the clues and investigative flow for each case.
+- Dialogue Integration: Implemented dialogue into the game based on narrative content and ideas developed by the team.
+- Core Gameplay Integration: Integrated the individual efforts of my team members with my own work to create each level's case and create a cohesive story.
+- Playtesting & Integration: Participated in the game's playtesting and refined the player experience based on observations and feedback.
+- Debugging & Problem Solving: Helped identify, invetsigate, and resolve technical issues ecountered throughout development.
 
 ## Retrospection
 
-x
+One of the biggest challenges during development was planning and implementing the overall flow of the game's story. Since the game relied heavily on narrative and investigative gameplay, it was important to ensure that the cutscenes, NPC animations, dialogue and clues all worked together to create a cohesive experience. While the individual cutscenes and NPC animations were developed by other team members, I was responsible for integrating these elements with other parts of the ame I developed. This required careful planning to ensure that each case progressed naturally and that the different gameplay and narative elements worked together as intended.<br> 
+This experience helped me better understand the challenges of developingnarrative-drive gagmes, particulary the importance of coordinating nt features and contributions wihn a team. It also gave me valuable experience ating independently developed components into a cohesive final product.
 
 ## Gameplay Video
 
