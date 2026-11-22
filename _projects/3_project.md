@@ -16,7 +16,7 @@ related_publications: false
   <h2><b>Rocky Raccoon:<br>Cybersecurity Detective</b></h2>
   <h4><b>University Project</b></h4>
   <p class="mb-0"><small>April, 2026</small></p>
-  <p><small>Game Developer &amp; Game Designer</small></p>
+  <p><small>Game Developer &amp; Designer</small></p>
 </div>
 
 ### Summary
@@ -49,12 +49,12 @@ Each case follows the detective investigation process:<br>
 My primary contributions focused on gameplay design, UI development, environment creation, and integrating the game's narrative elements.<br>
 
 - Environment Development: Contributed to constructing the game's environment using freely available 3D assets
-- UI Design & Development: Designed and programmed the UI for the clue corkboard, allowing players to review the evidence assosiated with each case.
-- Puzzle & Case Design: Planned and designed the clues and investigative flow for each case.
+- UI Design &amp; Development: Designed and programmed the UI for the clue corkboard, allowing players to review the evidence assosiated with each case.
+- Puzzle &amp; Case Design: Planned and designed the clues and investigative flow for each case.
 - Dialogue Integration: Implemented dialogue into the game based on narrative content and ideas developed by the team.
 - Core Gameplay Integration: Integrated the individual efforts of my team members with my own work to create each level's case and create a cohesive story.
-- Playtesting & Integration: Participated in the game's playtesting and refined the player experience based on observations and feedback.
-- Debugging & Problem Solving: Helped identify, invetsigate, and resolve technical issues ecountered throughout development.
+- Playtesting &amp; Integration: Participated in the game's playtesting and refined the player experience based on observations and feedback.
+- Debugging &amp; Problem Solving: Helped identify, invetsigate, and resolve technical issues ecountered throughout development.
 
 ## Retrospection
 
